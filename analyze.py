@@ -26,6 +26,8 @@ annual_movements = aircraft_arrivals.resample('A').sum()
 del annual_movements['aircraft_departures']
 del annual_movements['aircraft_arrivals']
 
+annual_movements[500]
+
 annual_exports = exports.resample('A').sum()
 
 del annual_exports['year']
